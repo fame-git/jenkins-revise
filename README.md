@@ -19,7 +19,7 @@ Clone this repository or download it's contents.
 Open a terminal window in the same directory where the `Dockerfile` from this repository is located. Build the Jenkins Docker image:
 
 ```
-docker build -t my-jenkins .
+docker build -t jenkins-lab .
 ```
 
 ## Step 3

@@ -18,9 +18,9 @@ services:
           - docker
     command: --storage-driver overlay2
 
-  my-jenkins:
-    image: my-jenkins
-    container_name: my-jenkins
+  jenkins-lab:
+    image: jenkins-lab
+    container_name: jenkins-lab
     restart: on-failure
     environment:
       - DOCKER_HOST=tcp://docker:2376
