@@ -2,7 +2,7 @@ pipeline {
     agent any
 
   environment {
-    NETLIFY_SITE_ID = 'cf6f94ed-a12e-4f33-a708-82b5c10d0c94'
+    NETLIFY_SITE_ID = '831bb98e-490b-412f-a4cd-08d6010be11e'
     NETLIFY_AUTH_TOKEN = credentials('netlify-token')
     REACT_APP_VERSION = "1.0.$BUILD_ID"
   }
@@ -122,7 +122,7 @@ pipeline {
               }
 
               environment {
-                CI_ENVIRONMENT_URL = 'https://frolicking-strudel-5ab4ad.netlify.app'
+                CI_ENVIRONMENT_URL = 'https://timely-lokum-50a760.netlify.app/'
               }
                     
               steps {
